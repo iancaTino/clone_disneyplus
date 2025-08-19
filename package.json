@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-"scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "build": "gulp",
-  "watch": "gulp watch"
-},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp",
+    "watch": "gulp watch"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iancaTino/clone_disneyplus.git"
@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/iancaTino/clone_disneyplus#readme",
   "devDependencies": {
-    "gulp": "^5.0.1",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^6.0.1",
     "sass": "^1.90.0"
   }
